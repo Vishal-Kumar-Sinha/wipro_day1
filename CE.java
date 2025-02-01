@@ -1,7 +1,6 @@
-/*
- *  
+/* 
 Write a java program by creating a custom exception of your own 
- */
+*/
 class MyCustomException extends Exception {
     public MyCustomException(String s) {
         super(s);

@@ -1,12 +1,13 @@
 /*
 write a program that shows the implementation of null pointer exception &array 
 index out of bound exception using try catch finally blocks
-  */
+*/
 public class NPE {
     static void f1() {
         int[]arr=new int[4];
         arr[4]=2;
     }
+    @SuppressWarnings("null")
     static void f2() {
         String str=null;
         System.out.println(str.length());
