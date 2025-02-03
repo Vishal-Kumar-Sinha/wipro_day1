@@ -56,10 +56,8 @@ public class EmployeeMS {
         e[2]=new FullTimeEmployee(03, "Full Emp2", 10000);
         e[3]=new PartTimeEmployee(04, "Part Emp2", 31, 560);
         for(int i=0;i<e.length;i++) {
-            System.out.println("\n---------------\n");
             e[i].calculateSalary();
             e[i].displayDetails();
-            System.out.println("\n---------------\n");
         }
     }
 }
