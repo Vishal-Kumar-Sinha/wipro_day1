@@ -108,7 +108,8 @@ public class lmddemo {
         System.out.println("\nDefault method in interface:");
         Carrr c=new Carrr();
         c.start();
-        //can we overload or override default method------------doubt?
+        //can we overload or override default method------------doubt?can..backward compatibility, multiple inheritance
+        //streams supports data execution but no data storage
         System.out.println("\nMethod reference example:");
         Consumer<String> r=Mreg::printMsg;
         r.accept("Accepting msg from consumer");
