@@ -1,2 +1,36 @@
 This is day 1 assignment 1
 Git intro, Create & Manage repositories, Repository settings,  Adding & Commiting, Branches, Stashing, GitHub, Fetching & Pulling, Git Collaboration, Git tags, Git Clone, Git Forking, Merge Requests
+
+
+
+//day2
+
+
+//day6
+======================================================
+junit.....
+======================================================
+junit test annotations, 
+assertions checks expected and actual results, 
+Test case:
+@Test: annotation before a test case method
+@Before: runs before each test
+@After: runs after each test
+@Ignore: temporarity ignore test method
+Test suite: bunch of test cases running at a same time
+Test runner: used for running test & provide feedback
+versions: junit 3,4,5(latest)
+Advantages: automated testing, quick feedback
+
+test fixers: refers for object or resources & frames all of 
+them to execute a test, and clean ups everything after the test 
+is done. It is defined by annotations @Before and @After
+
+@Runwith( parameterized class): run parameterized class
+
+Mochito: allow to create mock classes and objects, testing behaviour without implementing the class.
+Mochito features: mocking, stabbing, verification
+spi : partial mock
+@Injectmock automatically tested whenever a mock is created
+
+Restasure used to test api, allows us to access data and handle cookies & authentication and manage http request.
